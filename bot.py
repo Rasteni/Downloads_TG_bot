@@ -2,7 +2,7 @@ import os
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import CommandStart, Command
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, FSInputFile, ChatMemberStatus
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, FSInputFile, ChatMember
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 import yt_dlp
