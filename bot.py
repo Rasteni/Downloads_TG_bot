@@ -9,7 +9,8 @@ from aiogram.fsm.state import State, StatesGroup
 import yt_dlp
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
-REQUIRED_CHANNEL = os.getenv('REQUIRED_CHANNEL')
+REQUIRED_CHANNEL = os.environ.get('REQUIRED_CHANNEL')
+
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
