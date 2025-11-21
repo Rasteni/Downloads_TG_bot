@@ -8,8 +8,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 import yt_dlp
 
-load_dotenv()
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 REQUIRED_CHANNEL = os.getenv('REQUIRED_CHANNEL')
 
 bot = Bot(token=BOT_TOKEN)
