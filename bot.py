@@ -10,8 +10,8 @@ from typing import Optional
 from pathlib import Path
 
 DOWNLOADS_DIR = "downloads"
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-REQUIRED_CHANNEL = "@your_channel_name"
+BOT_TOKEN = "7924889067:AAHaQLLx9REvxay_Wt9qFbSgSJ3zYm6AHGc"
+REQUIRED_CHANNEL = "https://t.me/+c89KSS6hqqA5YmRi"
 
 Path(DOWNLOADS_DIR).mkdir(exist_ok=True)
 
