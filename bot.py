@@ -8,8 +8,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 import yt_dlp
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-REQUIRED_CHANNEL = os.environ.get('REQUIRED_CHANNEL')
+BOT_TOKEN = "7924889067:AAHaQLLx9REvxay_Wt9qFbSgSJ3zYm6AHGc"  # ← Ваш токен, прямо в кавычках!
+REQUIRED_CHANNEL = "@c89KSS6hqqA5YmRi"
 
 
 bot = Bot(token=BOT_TOKEN)
