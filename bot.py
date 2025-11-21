@@ -11,8 +11,8 @@ from aiogram.fsm.state import State, StatesGroup
 import yt_dlp
 
 load_dotenv()
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-REQUIRED_CHANNEL = os.getenv('REQUIRED_CHANNEL')
+BOT_TOKEN = os.getenv('7924889067:AAHaQLLx9REvxay_Wt9qFbSgSJ3zYm6AHGc')
+REQUIRED_CHANNEL = os.getenv('https://t.me/+c89KSS6hqqA5YmRi')
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
